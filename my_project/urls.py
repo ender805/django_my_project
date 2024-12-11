@@ -25,4 +25,4 @@ urlpatterns = [
     path('about/', about_views.about_me, name='about'),
     path('admin/', admin.site.urls),
 ]
-
+# working only with : path('', index_views.index, name='home'),   otherwise error :/ 
